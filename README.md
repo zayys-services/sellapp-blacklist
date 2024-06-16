@@ -49,7 +49,10 @@ Or you can run the `start.bat` file.
 
 ### Notes
 
-- Ensure `domains.txt` and `proxies.txt` are correctly formatted before running the script.
+- To add any ASNs, Countires, Emails, IPs, Proxies, or Wildcard Emails please go to the data folder and edit the files there.
+- Remember to put your HTTP proxies inside proxies.txt, which that file is in the data folder
+- Put your Sell.app API key inside sell.app.apikey in the api folder
+- You can start it either by start.bat or python main.py, start.bat will automatically update your modules and install Python if its not installed.
 - Monitor console output for status updates and errors during execution.
 
 ## Contributing
