@@ -1,0 +1,5 @@
+{
+    "sell_app_api_key": "sell_app_api_key here",
+    "debug_mode": false,
+    "threads": 10
+}
