@@ -1,10 +1,10 @@
-# Domain Blacklister
+# Sell.app Blacklister
 
-Domain Blacklister is a Python script designed to manage and update domain blacklists using Sell.app API. It supports multi-threaded processing with proxy rotation for efficient operation.
+Sell.app Blacklister is a Python script designed to manage and update blacklists using Sell.app API. It supports multi-threaded processing with proxy rotation for efficient operation.
 
 ## Features
 
-- **API Integration:** Interacts with Sell.app API to fetch existing blacklisted domains and add new ones.
+- **API Integration:** Interacts with Sell.app API to fetch existing blacklisted items and add new ones.
 - **Multi-threaded Processing:** Utilizes threading for concurrent domain processing, improving speed.
 - **Proxy Support:** Rotates through a list of proxies to handle rate limits and network errors gracefully.
 - **File Handling:** Reads domains and proxies from text files for easy configuration.
