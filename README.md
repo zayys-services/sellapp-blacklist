@@ -18,24 +18,24 @@ Sell.app Blacklister is a Python script designed to manage and update blacklists
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/zayys-services/sellapp-blacklist.git
-   cd domain-blacklister
+   cd sellapp-blacklist
    ```
 
-2. Install dependencies:
+2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Set up Sell.app API key:
-   - Go to `api/sell.app.apikey` and open it in notepad.
-   - Make sure your Sell.app API key has blacklist permissions.
-   - Paste your Sell.app API key into this file.
+3. **Set up Sell.app API key:**
+   - Navigate to `config.json` and open it in a text editor.
+   - Ensure your Sell.app API key has blacklist permissions.
+   - Paste your Sell.app API key where it says `sell_app_api_key here`.
 
-4. Prepare domain and proxy files:
-   - Add or remove any domains or proxies in `data/domains.txt` and `data/proxies.txt` files.
+4. **Prepare domain and proxy files:**
+   - Customize blacklists in the `data` folder and proxies in `data/proxies.txt` files as needed.
 
 ### Usage
 
@@ -45,19 +45,18 @@ Run the script using Python:
 python main.py
 ```
 
-Or you can run the `start.bat` file.
+Alternatively, you can run `start.bat` for automatic setup and execution.
 
 ### Notes
 
-- To add any ASNs, Countires, Emails, IPs, Proxies, or Wildcard Emails please go to the data folder and edit the files there.
-- Remember to put your HTTP proxies inside proxies.txt, which that file is in the data folder
-- Put your Sell.app API key inside sell.app.apikey in the api folder
-- You can start it either by start.bat or python main.py, start.bat will automatically update your modules and install Python if its not installed.
-- Monitor console output for status updates and errors during execution.
+- Modify files in the `data` folder to update ASNs, Countries, Emails, IPs, Proxies, or Wildcard Emails.
+- Ensure HTTP proxies are listed in `data/proxies.txt`.
+- Initiate the script via `start.bat` or `python main.py`; `start.bat` automates module updates and Python installation.
+- Monitor console output for real-time status updates and errors during execution.
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit pull requests with improvements or bug fixes.
+Contributions are welcome! Fork the repository and submit pull requests for improvements or bug fixes.
 
 ## License
 
