@@ -20,7 +20,7 @@ Sell.app Blacklister is a Python script designed to manage and update blacklists
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MrPrinceV2/sell.app-Blacklist-Rules.git
+   git clone https://github.com/zayys-services/sellapp-blacklist.git
    cd domain-blacklister
    ```
 
